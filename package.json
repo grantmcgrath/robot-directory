@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/grantmcgrath/robot-directory#readme",
   "dependencies": {
-    "express": "^4.15.3"
-  }
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "mustache-express": "^1.2.5"
+  },
+  "devDependencies": {}
 }
