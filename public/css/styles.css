@@ -1,0 +1,57 @@
+body {
+  margin: 0 auto;
+  background-color: #f0f5f8;
+  font-family: sans-serif;
+}
+
+header, section {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+div {
+  background-color: white;
+  width: 180px;
+}
+
+h1 {
+  font-size: 4vw;
+  margin: 0;
+  padding: 2vw 15px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #247ad7;
+  padding: 0 15px;
+}
+
+img {
+  padding: 0;
+}
+
+p {
+  color: #697177;
+  padding: 0 15px;
+}
+
+#index {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.placeholder {
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  margin: 5px;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.noJob {
+  color: #dc514f;
+}

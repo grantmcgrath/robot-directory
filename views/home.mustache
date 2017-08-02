@@ -6,6 +6,23 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
+    <header>
+      <h1>Robos Directory</h1>
+    </header>
 
+    <section id="index">
+      {{#users}}
+      <div class="placeholder">
+        <img src={{avatar}}>
+        <h2>{{name}}</h2>
+        {{#job}}
+        <p class="job">{{job}}, {{company}}</p>
+        {{/job}}
+        {{^job}}
+        <p class="noJob">Available for hire</p>
+        {{/job}}
+      </div>
+      {{/users}}
+    </section>
   </body>
 </html>
