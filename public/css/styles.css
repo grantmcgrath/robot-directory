@@ -9,13 +9,9 @@ header, section {
   max-width: 900px;
 }
 
-div {
-  background-color: white;
-  width: 180px;
-}
-
 h1 {
   font-size: 4vw;
+  font-weight: 300;
   margin: 0;
   padding: 2vw 15px;
 }
@@ -31,27 +27,95 @@ img {
 }
 
 p {
-  color: #697177;
   padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #index {
   display: flex;
   justify-content: space-between;
+  align-content: flex-start;
   flex-wrap: wrap;
   padding: 10px;
+  margin-bottom: 3vw;
 }
 
-.placeholder {
+#cardHolder {
+  margin: 5vw auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 700px;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 10px grey;
+}
+
+#headerCard {
+  width: 100%;
+  background-color: white;
+  box-shadow: 5px 5px 10px grey;
+  margin: 0 auto;
+}
+
+#headerCard > p {
+  padding: 10px;
+  font-size: 2vw;
+}
+
+#header {
+  width: 900px;
+}
+
+.cards {
   border-radius: 5px;
   border: 1px solid #e4e4e4;
   margin: 5px;
+  background-color: white;
+  width: 210px;
+  height: 294px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.avatar {
+  margin: 0 25%;
 }
 
 .border {
   border: 2px solid black;
 }
 
+.job {
+  color: #697177;
+  padding: 0 15px;
+}
+
 .noJob {
   color: #dc514f;
+  padding: 0 15px;
+}
+
+.profilePic, .eduSkills {
+  width: 200px;
+  text-align: right;
+}
+
+.profilePic > img {
+  border-radius: 50%;
+  border: 2px solid #ebebeb;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.contactInfo, .eduSkillsDetails {
+  width: 500px;
+}
+
+.skills {
+  line-height: 5px;
 }
